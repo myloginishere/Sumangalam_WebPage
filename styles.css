@@ -177,6 +177,37 @@ body {
   color: #6d5c52;
 }
 
+.officer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.officer-list li {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border: 1px solid #e8dfd4;
+  border-radius: 6px;
+  color: #2c1810;
+}
+
+.section-alt .officer-list li {
+  background: #faf8f5;
+}
+
+.officer-list .role {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6d4c3d;
+  margin-bottom: 0.2rem;
+}
+
 .site-footer {
   padding: 1.5rem 0;
   background: #2c1810;
