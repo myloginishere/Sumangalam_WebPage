@@ -100,6 +100,46 @@ body {
   color: #2c1810;
 }
 
+.tagline {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6d4c3d;
+}
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card-list li {
+  padding: 1.25rem;
+  background: #faf8f5;
+  border: 1px solid #e8dfd4;
+  border-radius: 8px;
+}
+
+.card-list h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  color: #2c1810;
+}
+
+.card-list p {
+  margin: 0;
+  color: #4a4038;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #6d5c52;
+}
+
 .site-footer {
   padding: 1.5rem 0;
   background: #2c1810;
